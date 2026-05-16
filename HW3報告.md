@@ -1,13 +1,12 @@
 # House Price Prediction using Multiple Linear Regression with Feature Selection
 
 **Course:** 智慧物聯網應用與實作 — HW3  
-**Topic:** 利用多元線性回歸與特徵選擇預測房價  
-**Date:** 2026-05-14  
+**Topic:** 利用多元線性回歸與特徵選擇預測房價   
 **Dataset:** Housing Prices Dataset (https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)
 
 ### 研究脈絡 Research Context
 
-房價預測是資料科學與機器學習在不動產領域最具代表性的應用之一。本報告以 Kaggle 公開的住宅資料集（545 筆、13 項特徵）為基礎，探討如何透過**統計特徵選擇**（Pearson 相關係數 + SelectKBest）篩選出關鍵預測變數，並比較**簡單線性回歸（SLR）**與**多元線性回歸（MLR）**的預測效能。整體分析流程依循業界標準的 **CRISP-DM** 方法論，從商業理解出發，歷經資料準備、建模、評估，最終討論模型的部署可行性，旨在培養完整的機器學習專案執行能力。
+房價預測是資料科學與機器學習在不動產領域最具代表性的應用之一。本報告以 Kaggle 公開的住宅資料集（545 筆、13 項特徵）為基礎，探討如何透過**統計特徵選擇**（Pearson 相關係數 + SelectKBest）篩選出關鍵預測變數，並比較**簡單線性回歸**與**多元線性回歸**的預測效能。整體分析流程依循業界標準的 **CRISP-DM** 方法論，從商業理解出發，歷經資料準備、建模、評估，最終討論模型的部署可行性，旨在培養完整的機器學習專案執行能力。
 
 ---
 
