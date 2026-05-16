@@ -91,4 +91,47 @@ Build a complete Linear Regression report for HW3, covering the following requir
 
 ---
 
+## Session 2 — 2026-05-16
+
+**Conversation ID:** dfc9554d-983a-4891-bbe0-079e6ce95a27 (continued)  
+**Time:** 2026-05-16T11:32 – 11:44 (UTC+8)
+
+### Actions Taken
+
+1. **Added Research Context to `report.md`** (lines 8–14):
+   - Inserted a bilingual `### 研究脈絡 Research Context` section between the dataset metadata and the first `---` separator.
+   - Chinese paragraph: explains dataset source (Kaggle, 545 records, 13 features), methods (Pearson + SelectKBest, SLR vs MLR), and CRISP-DM framework motivation.
+   - User subsequently refined the Chinese text (removed "印度" modifier, removed the English blockquote version).
+
+2. **Created `README.md`**:
+   - Project overview and bilingual header
+   - Full directory/file structure tree
+   - CRISP-DM phase summary table
+   - Feature selection results table (Pearson r + F-score for all 12 features)
+   - Model results comparison table (SLR vs MLR: R², RMSE, MAE)
+   - Embedded sample figure previews (2×2 grid)
+   - Setup & usage instructions (pip install + `python -X utf8` run command)
+   - Key findings and business insights
+   - References section (dataset, CRISP-DM, scikit-learn docs)
+
+3. **Pushed project to GitHub**:
+   - Repository: https://github.com/hsu24/AIoT_HW3.git
+   - Initialized local git repository (`git init`)
+   - Staged all 16 files (`git add .`)
+   - Created initial commit: `"Initial commit: CRISP-DM house price prediction (SLR + MLR)"`
+   - Set remote origin, renamed branch to `main`, pushed successfully (`git push -u origin main`)
+
+### Files Pushed to GitHub
+
+| File | Notes |
+|------|-------|
+| `Housing.csv` | Raw dataset |
+| `housing_regression.py` | Full CRISP-DM analysis pipeline |
+| `report.md` | Structured report with research context |
+| `README.md` | Project overview for GitHub |
+| `conversation_log.md` | This log |
+| `report_figures/*.png` | 10 visualization figures |
+
+---
+
 *Log maintained in English per project requirements.*
